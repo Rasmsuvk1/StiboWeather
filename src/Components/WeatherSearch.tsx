@@ -49,7 +49,7 @@ function WeatherSearch(){
                 <h3>Please insert your city:</h3>
                 <input id="cityInput" className="WeatherSearchInput" placeholder="Input City"/>
                 <button className="WeatherSearchButton" onClick={handleSearchClick}> Search </button> 
-                <div className="WeatherContent"><p>No information to show</p></div>   
+                <div className="WeatherContent"><p>No City selected</p></div>   
             </div>
             )
     }
