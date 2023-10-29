@@ -1,0 +1,54 @@
+
+.WeatherSearchDiv{
+    text-align: center;
+    padding: 10%;
+}
+.WeatherSearchInput{
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+  text-align: center;
+  margin: 1%;
+}
+.WeatherSearchButton{
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  background: #6E6D70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 1%;
+}
+
+.WeatherSearchButton:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+.WeatherSearchButton:hover {
+    background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+    cursor: pointer;
+  }
+  
+  @media (min-width: 768px) {
+    .button-43 {
+      padding: 1rem 2rem;
+    }
+  }
+.WeatherContent{
+  height: 400px;
+  width: 300px;
+  background-color: dimgrey;
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 3%;
+  border-radius: 25px;
+}
+.WeatherList{
+     list-style-type: none;
+}
